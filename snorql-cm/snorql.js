@@ -155,7 +155,7 @@ function Snorql() {
     }
 
     this._displayEndpointURL = function() {
-        var newTitle = 'Snorql: Exploring ' + this._endpoint;
+        var newTitle = 'SNORQL-CM: Exploring ' + this._endpoint;
         this._display(document.createTextNode(newTitle), 'title');
         document.title = newTitle;
     }
