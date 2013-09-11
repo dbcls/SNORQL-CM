@@ -7,6 +7,19 @@ About
 SNORQL is an AJAXy front-end for exploring an RDF SPARQL endpoint, and SNORQL-CM is its modified version for syntax highlighting of a SPARQL query.
 SNORQL-CM utilizes CodeMirror ( http://codemirror.net/ ) which is a versatile text editor implemented in JavaScript for web browsers.
 
+Installation
+------------
+
+1. Clone from github.
+  ```
+  $ git clone https://github.com/dbcls/SNORQL-CM.git
+  ```
+
+1. Copy snorql-cm directory to your webserver's directory.
+  ```
+  $ cp -rp snorql-cm/snorql-cm /path/to/your/webserver/directory/
+  ```
+
 Copyrights
 ----------
 
