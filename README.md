@@ -34,7 +34,7 @@ Configuration
   ProxyPassReverse /sparql http://your.sparql/endpoint
   ```
 
-1. Change endpoint path at sparql.js to change this.\_endpoint.
+1. Change endpoint path at sparql.js to modify this.\_endpoint.
   ```
   this._endpoint = 'http://webserver/sparql';
   ```
