@@ -20,6 +20,25 @@ Installation
   $ cp -rp SNORQL-CM/snorql-cm /path/to/your/webserver/directory/
   ```
 
+Configuration
+-------------
+
+1. Add reverse proxy configurations to your Apache conf file.
+  ```
+  ProxyRequests Off
+  <Proxy *>
+    Order deny,allow
+    Allow from all 
+  </Proxy>
+  ProxyPass /sparql http://your.sparql/endpoint
+  ProxyPassReverse /sparql http://your.sparql/endpoint
+  ```
+
+1. Change endpoint path at sparql.js to change this.\_endpoint.
+  ```
+  this._endpoint = 'http://webserver/sparql';
+  ```
+
 Copyrights
 ----------
 
