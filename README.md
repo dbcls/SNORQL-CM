@@ -17,7 +17,7 @@ Installation
 
 1. Copy snorql-cm directory to your webserver's directory.
   ```
-  $ cp -rp snorql-cm/snorql-cm /path/to/your/webserver/directory/
+  $ cp -rp SNORQL-CM/snorql-cm /path/to/your/webserver/directory/
   ```
 
 Copyrights
