@@ -10,8 +10,10 @@ String.prototype.startsWith = function(str) {
 
 function Snorql() {
     this._endpoint = 'http://URL.of.SPARQLendpoint';
-    this._poweredByLink = 'http://d2rq.org/';
-    this._poweredByLabel = 'D2R Server';
+    this._poweredByLink = 'https://github.com/dbcls/SNORQL-CM';
+    this._poweredByLabel = 'SNORQL-CM';
+    this._poweredByLink_D2R = 'http://d2rq.org/';
+    this._poweredByLabel_D2R = 'D2R Server';
     this._poweredByLink_CodeMirror = 'http://codemirror.net/';
     this._poweredByLabel_CodeMirror = 'CodeMirror';
     this._enableNamedGraphs = false;
@@ -163,6 +165,8 @@ function Snorql() {
     this._displayPoweredBy = function() {
         jQuery('#poweredby').prop ('href', this._poweredByLink);
         jQuery('#poweredby').text (this._poweredByLabel);
+        jQuery('#poweredbyD2R').prop ('href', this._poweredByLink_D2R);
+        jQuery('#poweredbyD2R').text (this._poweredByLabel_D2R);
         jQuery('#poweredbyCD').prop ('href', this._poweredByLink_CodeMirror);
         jQuery('#poweredbyCD').text (this._poweredByLabel_CodeMirror);
     }
