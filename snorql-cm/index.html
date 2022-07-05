@@ -5,7 +5,7 @@
     <title>SNORQL-CM: A SPARQL Explorer</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="http://codemirror.net/lib/codemirror.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.css">
     <style type="text/css">.CodeMirror {border-top: 1px solid black; border-bottom: 1px solid black;}</style>
   </head>  
 
@@ -75,7 +75,7 @@ SELECT DISTINCT * WHERE {
 
     <div id="footer">Powered by <a id="poweredby" href="#">SNORQL-CM</a> based on <a id="poweredbyD2R" href="#">D2R Server</a> and <a id="poweredbyCD" href="#">CodeMirror</a><br>
 
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $.noConflict(); 
     </script>
@@ -84,9 +84,9 @@ SELECT DISTINCT * WHERE {
     <script type="text/javascript" src="sparql.js"></script>
     <script type="text/javascript" src="namespaces.js"></script>
     <script type="text/javascript" src="snorql.js"></script>
-    <script src="http://codemirror.net/lib/codemirror.js"></script>
-    <script src="http://codemirror.net/addon/edit/matchbrackets.js"></script>
-    <script src="http://codemirror.net/mode/sparql/sparql.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/addon/edit/matchbrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.6/mode/sparql/sparql.min.js"></script>
     <script type="text/javascript">
     <!--
       editor = CodeMirror.fromTextArea(document.getElementById("querytext"), {
