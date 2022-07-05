@@ -12,7 +12,7 @@ function Snorql() {
     this._endpoint = 'https://URL.of.SPARQLendpoint';
     this._poweredByLink = 'https://github.com/dbcls/SNORQL-CM';
     this._poweredByLabel = 'SNORQL-CM';
-    this._poweredByLink_D2R = 'https://d2rq.org/';
+    this._poweredByLink_D2R = 'http://d2rq.org/';
     this._poweredByLabel_D2R = 'D2R Server';
     this._poweredByLink_CodeMirror = 'https://codemirror.net/';
     this._poweredByLabel_CodeMirror = 'CodeMirror';
